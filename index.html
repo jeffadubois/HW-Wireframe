@@ -1,12 +1,58 @@
-<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<HTML>
-   <HEAD>
-      <TITLE>
-         A Small Hello 
-      </TITLE>
-   </HEAD>
-<BODY>
-   <H1>Hi</H1>
-   <P>This is very minimal "hello world" HTML document.</P> 
-</BODY>
-</HTML>
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 5.0//EN">
+<html lang="en">
+<!--
+	Your HTML should have each of the following sections: 
+Header
+Nav
+Aside
+Section
+Article (With a Heading)
+Headers
+Paragraph
+-->
+  <head>
+    <!-- Character Encoding: http://www.w3.org/TR/html-markup/syntax.html#character-encoding -->
+    <meta charset="UTF-8">
+    
+    <!-- Metadata: http://www.w3.org/TR/html5/document-metadata.html#the-meta-element 
+    Any metadata you wish is valid.  Note that Google and other search engines ignore
+    metadata 'keywords' as specified here in the HTML document. -->
+    <meta name="author" content="Book Dojo">
+    <meta name="keywords" content="book,language,reading,author">
+    <meta name="description" content="The Book Repository">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Title: http://www.w3.org/TR/2011/WD-html5-20110525/elements.html#the-title-attribute -->
+    <title>The Book Repository | Book Dojo</title>
+
+    <!-- Stylesheet Linktypes: http://www.w3.org/TR/html5/links.html#link-type-stylesheet -->
+ <!--   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
+    
+    <!-- Conditional Comments: https://en.wikipedia.org/wiki/Conditional_comment 
+    Using the same script in this example, but typically stylesheets would differ
+    based on the browser being served. -->
+    <!--[if !IE]><!-->
+  <!--    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-pink.min.css"> -->
+    <!--<![endif]-->
+    <!--[if IE 6]><!-->
+  <!--    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-pink.min.css"> -->
+    <!--<![endif]-->
+    
+    <!-- Script: http://www.w3.org/TR/html5/scripting-1.html -->
+  <!-- <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script> -->
+  </head>
+
+   <body>
+
+   <header><p>header</p></header>
+   <nav><p>nav</p></nav>
+   <section>
+      <p>section</p>
+      <article> <p>article</p><p>h1, h2, h3</p></article>
+	  <p>p</p>
+   </section>
+   <aside><p>aside</p></aside>
+   <footer>
+      <span>footer</span>
+    </footer>
+	</body>
+</html>
