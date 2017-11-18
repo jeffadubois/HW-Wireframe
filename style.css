@@ -43,11 +43,6 @@ nav {
 	 position:relative;
 }
 
-#section_aside_row {
-	 width: 960px;
-	 height: 400px;
-}
-
 section {
    float: left;
    width: 470px;
@@ -65,7 +60,7 @@ aside {
 	float: right;
 	background: white;
 	width: 464px;
-  /*	height: 400px; */height: 40%;
+    height: 40%;
     margin-top:8px;
   text_align: center;
 
